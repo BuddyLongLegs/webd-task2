@@ -1,0 +1,184 @@
+body{
+    background-image: url("./bg.jpg");
+    background-size: 400px;  
+    font-family: 'Roboto Slab', serif;
+}
+
+#main{
+    background-color: white;
+    padding:1em;
+    margin:2em;
+    border-radius: 1em;
+}
+
+.block{
+    width: auto;
+    padding:1em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+}
+
+#prof {
+    background: #013739;
+}
+
+#prof h1 {
+    color:white;
+    width:100%;
+    text-align: center;
+}
+
+#prof #profile{
+    width:100px;
+    margin:auto;
+}
+
+#prof img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#prof #info{
+    display: block;
+    width:100%;
+    text-align: center;
+}
+
+#prof .det{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+#prof p {
+    color: white;
+    
+}
+
+#prof a{
+    color: #f3f2c9;
+}
+
+
+#edu{
+    display: flex;
+    background-color: #065153;
+    overflow:hidden;
+    align-items: center;
+}
+
+#edu .eduhead{
+    display:block;
+    width: 33%;
+    height: auto;
+    border-left:white;
+}
+
+#edu h2{
+    text-align: center;
+    color: white;
+    height: 100%;
+    
+}
+
+#edu .educont{
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    height: 100%;
+
+}
+
+#edu ul{
+    color: white;
+}
+
+#skill{
+    display: flex;
+    background-color: #499da0;
+    align-items: center;
+}
+
+#skill #skillhead{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    
+}
+#skill #skillcont{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#skillcont table{
+    text-align: center;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+#skillcont .bottom{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+#skillcont .right{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+
+#skillcont th{
+    background-color: rgb(71, 139, 143);
+}
+
+#contact {
+    background-color: #dddcaf;
+    display: flex;
+    height:max-content;
+    align-items: center;
+}
+
+#contacthead{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    height: max-content;
+}
+
+#contacthead h2{
+    text-align: center;
+    height: 100%;
+
+}
+
+#contactcont{
+    display: flex;
+    width: 50%;
+    height: max-content;
+    justify-content: center;
+}
+
+#contactcont form{
+    width:100%;
+    flex-flow: row;
+    align-items: center;
+    height: max-content;
+    
+}
+
+#contactcont input{
+    display:flex;
+    width: 98%;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    
+}
+
+#submit {
+    color: white;
+    background-color: #013739;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0.5em;
+}

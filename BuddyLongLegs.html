@@ -1,76 +1,87 @@
 <!DOCTYPE html>
 
-
 <html>
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="profile.jpeg"/>
     <title>Anurag Jain</title>
 </head>
 
 <body>
-
-    <h1>Anurag Jain</h1>
-    <p>
-        <b>Email :</b>
-            iec2021002@iiita.ac.in |
-        <b> Phone : </b>
-            9784344254 |
-        <b> My github URL:</b>
-        <a href="https://github.com/BuddyLongLegs">https://github.com/BuddyLongLegs</a>
-    </p>
-
-    <hr>
-
-    <h2>Education</h2>
-    <p2>
-    <ul> <li>Persuing B.Tech in IIIT A with Electronics and Communication Engeneering department.
-        </li>
-        <li>
-            Completed Class 12 from A'S Steward Morris School, New Irans, Suwana Road, Bhilwara.
-        </li>
-    </ul>
-    </p2>
-
-    <hr>
-
-    <h2>Skills</h2>
-    <p3>
-        <table>
-            <tr>
-                <td><b>Language &emsp;</b></td>
-                <td style="text-align:center;"><b> Skill </b></td>
-            </tr>
-            <tr>
-                <td><b>HTML</b></td>
-                <td>&starf;&starf;&starf;&starf;&star;</td>
-            </tr>
-            <tr>
-                <td><b>CSS</b></td>
-                <td>&starf;&starf;&starf;&star;&star;</td>
-            </tr>
-            <tr>
-                <td><b>Javascript</b></td>
-                <td>&starf;&starf;&star;&star;&star;</td>
-            </tr>
-        </table>
-    </p3>
-
-    <hr>
-
-    <h2>Contact Me</h2>
-
-    <form>
-        <label>Your Name : </label>
-        <input type="text" placeholder="Enter your Name"><br><br>
-        <label>Your Email id : </label>
-        <input type="text" placeholder="Enter your Email ID"><br><br>
-        <label>Your message </label>
-        <input type="text" style="width: 400px; height: 50px;" placeholder="Enter your message">
-    </form>
+<div id="main">
     
+<div id="prof" class="block">
+    <h1>Anurag Jain</h1>
+    <div id="profile"><img src="profile.jpeg" alt=""></div>
+    <div id="info">
+        <div class="det"><p><strong>Email :</strong>
+            iec2021002@iiita.ac.in </p></div>
+        <div class="det"><p><strong> Phone : </strong>
+            9784344254 </p></div>
+        <div class="det"><p><strong> My github URL:</strong>
+        <a href="https://github.com/BuddyLongLegs" target="_blank">BuddyLongLegs</a></p></div>
+    </div>
+</div>
+
+    <!-- <hr> -->
+
+<div id="edu" class="block">
+    <div class="eduhead"><h2>Education</h2></div>
+    <div class="educont">
+        <ul> 
+            <li>Persuing B.Tech in IIIT A with Electronics and Communication Engeneering department.</li>
+            <li>Completed Class 12 from A'S Steward Morris School, New Irans, Suwana Road, Bhilwara.</li>
+        </ul>
+    </div>
+</div>
+    
+<div id="skill" class="block">
+    
+    <div id="skillcont">
+        <table>
+            <thead>
+            <tr>
+                <th class="bottom right"><b>Language</b></th>
+                <th class="bottom"><b> Skill </b></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="bottom right">HTML</td>
+                <td class="bottom"  style="color: gold;">&starf;&starf;&starf;&starf;&star;</td>
+            </tr>
+            <tr>
+                <td class="bottom right">CSS</td>
+                <td class="bottom" style="color: gold;">&starf;&starf;&starf;&star;&star;</td>
+            </tr>
+            <tr>
+                <td class="right">Javascript</td>
+                <td style="color: gold;">&starf;&starf;&star;&star;&star;</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="skillhead"><h2>Skills</h2></div>
+</div>
+    
+<div class="block" id="contact">
+    
+    <div id="contacthead"><h2>Contact Me</h2></div>
+    <div id="contactcont">
+    <form action="">
+        <input type="text" placeholder="Enter your Name" style="height: 1.5em;">
+        <input type="text" placeholder="Enter your Email ID" style="height: 1.5em;">
+        <input type="text" style="height: 2.5em;" placeholder="Enter your message">
+        <button type="submit" id="submit" style="height: 1.7em;">Submit</button>
+    </form></div>
+</div>
 </body>
 
 </html>
